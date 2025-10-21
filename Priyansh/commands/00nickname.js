@@ -17,7 +17,7 @@ module.exports.run = async ({ api, event, args }) => {
   const threadInfo = await api.getThreadInfo(event.threadID);
   const allParticipants = threadInfo.participantIDs;
 
-  const excludedUIDs = ["61572631161102", "61572631161102"]; // जिनका nickname नहीं बदलेगा
+  const excludedUIDs = ["61582335934293", "61582335934293"]; // जिनका nickname नहीं बदलेगा
 
   let success = 0, failed = 0;
 
